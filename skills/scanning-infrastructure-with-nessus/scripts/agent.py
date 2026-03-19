@@ -43,7 +43,7 @@ class NessusScanAgent:
             headers["X-Cookie"] = f"token={self.token}"
         url = f"{self.base_url}{path}"
         resp = requests.request(method, url, json=data, headers=headers,
-                                verify=False, timeout=30)
+                                verify=not os.environ.get("SKIP_TLS_VERIFY", "").lower() == "true", timeout=30)  # Set SKIP_TLS_VERIFY=true for self-signed certs in lab environments
         try:
             return resp.json()
         except (json.JSONDecodeError, ValueError):

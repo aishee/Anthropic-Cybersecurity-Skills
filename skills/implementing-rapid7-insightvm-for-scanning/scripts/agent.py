@@ -38,13 +38,14 @@ def api_call(base_url, endpoint, user, password, method="GET",
     headers = {"Content-Type": "application/json", "Accept": "application/json"}
     if method == "POST":
         resp = requests.post(url, auth=auth, headers=headers, json=data,
-                             params=params, verify=False, timeout=60)
+                             params=params,
+                             verify=not os.environ.get("SKIP_TLS_VERIFY", "").lower() == "true", timeout=60)  # Set SKIP_TLS_VERIFY=true for self-signed certs in lab environments
     elif method == "PUT":
         resp = requests.put(url, auth=auth, headers=headers, json=data,
-                            verify=False, timeout=60)
+                            verify=not os.environ.get("SKIP_TLS_VERIFY", "").lower() == "true", timeout=60)  # Set SKIP_TLS_VERIFY=true for self-signed certs in lab environments
     else:
         resp = requests.get(url, auth=auth, headers=headers, params=params,
-                            verify=False, timeout=60)
+                            verify=not os.environ.get("SKIP_TLS_VERIFY", "").lower() == "true", timeout=60)  # Set SKIP_TLS_VERIFY=true for self-signed certs in lab environments
     resp.raise_for_status()
     return resp.json()
 
