@@ -509,14 +509,14 @@ Thanks to these wonderful people for building the largest open-source cybersecur
   <tr>
     <td align="center">
       <a href="https://github.com/mukul975">
-        <img src="https://avatars.githubusercontent.com/u/mukul975?v=4" width="100px;" alt="mukul975" /><br />
+        <img src="https://avatars.githubusercontent.com/u/42860185?v=4" width="100px;" alt="mukul975" /><br />
         <sub><b>mukul975</b></sub>
       </a><br />
       💻 📖 🚧 🎨
     </td>
     <td align="center">
       <a href="https://github.com/Systech2021-1952">
-        <img src="https://avatars.githubusercontent.com/u/Systech2021-1952?v=4" width="100px;" alt="Systech2021-1952" /><br />
+        <img src="https://avatars.githubusercontent.com/u/151213461?v=4" width="100px;" alt="Systech2021-1952" /><br />
         <sub><b>Systech2021-1952</b></sub>
       </a><br />
       💻 🌍
