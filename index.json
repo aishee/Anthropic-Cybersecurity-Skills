@@ -1,12 +1,12 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-03-19T09:18:02Z",
+  "generated_at": "2026-03-19T12:27:09Z",
   "repository": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-  "total_skills": 735,
+  "total_skills": 745,
   "total_domains": 1,
   "total_subdomains": 36,
   "domain_stats": {
-    "cybersecurity": 735
+    "cybersecurity": 745
   },
   "subdomain_stats": {
     "digital-forensics": 37,
@@ -21,9 +21,10 @@
     "container-security": 30,
     "log-analysis": 1,
     "phishing-defense": 16,
-    "network-security": 40,
-    "incident-response": 25,
+    "network-security": 41,
+    "incident-response": 27,
     "threat-hunting": 55,
+    "ransomware-defense": 13,
     "red-teaming": 24,
     "devsecops": 17,
     "identity-access-management": 35,
@@ -33,10 +34,9 @@
     "zero-trust-architecture": 13,
     "cryptography": 14,
     "endpoint-security": 17,
-    "ransomware-defense": 7,
     "ot-ics-security": 28,
     "api-security": 28,
-    "threat-detection": 7,
+    "threat-detection": 8,
     "deception-technology": 2,
     "application-security": 4,
     "compliance-governance": 5,
@@ -60,16 +60,16 @@
       "count": 44
     },
     {
+      "tag": "threat-intelligence",
+      "count": 42
+    },
+    {
       "tag": "cloud-security",
       "count": 42
     },
     {
-      "tag": "threat-intelligence",
-      "count": 41
-    },
-    {
       "tag": "incident-response",
-      "count": 37
+      "count": 40
     },
     {
       "tag": "owasp",
@@ -81,7 +81,7 @@
     },
     {
       "tag": "forensics",
-      "count": 34
+      "count": 35
     },
     {
       "tag": "soc",
@@ -362,7 +362,7 @@
       "version": "1.0",
       "author": "mukul975",
       "license": "Apache-2.0",
-      "path": "skills/analyzing-cobalt-strike-malleable-profiles"
+      "path": "skills/analyzing-cobalt-strike-malleable-profiles.bak"
     },
     {
       "name": "analyzing-cobaltstrike-malleable-c2-profiles",
@@ -1083,7 +1083,7 @@
       "version": "1.0",
       "author": "mukul975",
       "license": "Apache-2.0",
-      "path": "skills/analyzing-phishing-email-headers"
+      "path": "skills/analyzing-phishing-email-headers.bak"
     },
     {
       "name": "analyzing-powershell-empire-artifacts",
@@ -1195,6 +1195,24 @@
       "author": "mukul975",
       "license": "Apache-2.0",
       "path": "skills/analyzing-ransomware-network-indicators"
+    },
+    {
+      "name": "analyzing-ransomware-payment-wallets",
+      "description": ">",
+      "domain": "cybersecurity",
+      "subdomain": "ransomware-defense",
+      "tags": [
+        "ransomware",
+        "blockchain",
+        "cryptocurrency",
+        "forensics",
+        "threat-intelligence",
+        "bitcoin"
+      ],
+      "version": "1.0.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/analyzing-ransomware-payment-wallets"
     },
     {
       "name": "analyzing-security-logs-with-splunk",
@@ -1612,7 +1630,7 @@
       "version": "1.0",
       "author": "mukul975",
       "license": "Apache-2.0",
-      "path": "skills/auditing-kubernetes-rbac-permissions"
+      "path": "skills/auditing-kubernetes-rbac-permissions.bak"
     },
     {
       "name": "auditing-terraform-infrastructure-for-security",
@@ -1747,7 +1765,7 @@
       "version": "1.0.0",
       "author": "mukul975",
       "license": "Apache-2.0",
-      "path": "skills/building-cloud-security-posture-management"
+      "path": "skills/building-cloud-security-posture-management.bak"
     },
     {
       "name": "building-cloud-siem-with-sentinel",
@@ -2014,6 +2032,24 @@
       "author": "mukul975",
       "license": "Apache-2.0",
       "path": "skills/building-phishing-reporting-button-workflow"
+    },
+    {
+      "name": "building-ransomware-playbook-with-cisa-framework",
+      "description": ">",
+      "domain": "cybersecurity",
+      "subdomain": "ransomware-defense",
+      "tags": [
+        "ransomware",
+        "incident-response",
+        "CISA",
+        "playbook",
+        "compliance",
+        "NIST"
+      ],
+      "version": "1.0.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/building-ransomware-playbook-with-cisa-framework"
     },
     {
       "name": "building-red-team-c2-infrastructure-with-havoc",
@@ -2450,7 +2486,7 @@
       "version": "1.0",
       "author": "mukul975",
       "license": "Apache-2.0",
-      "path": "skills/conducting-cloud-infrastructure-penetration-test"
+      "path": "skills/conducting-cloud-infrastructure-penetration-test.bak"
     },
     {
       "name": "conducting-cloud-penetration-testing",
@@ -2649,7 +2685,7 @@
       "version": "1.0",
       "author": "mukul975",
       "license": "Apache-2.0",
-      "path": "skills/conducting-mobile-application-penetration-test"
+      "path": "skills/conducting-mobile-application-penetration-test.bak"
     },
     {
       "name": "conducting-network-penetration-test",
@@ -2929,7 +2965,7 @@
     },
     {
       "name": "configuring-microsegmentation-for-zero-trust",
-      "description": "Configuring Microsegmentation For Zero Trust",
+      "description": "Configure microsegmentation policies to enforce least-privilege workload-to-workload access using tools like VMware NSX, Illumio, and Calico, preventing lateral movement in zero trust architectures.",
       "domain": "cybersecurity",
       "subdomain": "security-operations",
       "tags": [
@@ -3150,7 +3186,7 @@
       "version": "1.0",
       "author": "mukul975",
       "license": "Apache-2.0",
-      "path": "skills/containing-active-security-breach"
+      "path": "skills/containing-active-security-breach.bak"
     },
     {
       "name": "correlating-security-events-in-qradar",
@@ -3247,6 +3283,24 @@
       "path": "skills/deploying-cloudflare-access-for-zero-trust"
     },
     {
+      "name": "deploying-decoy-files-for-ransomware-detection",
+      "description": ">",
+      "domain": "cybersecurity",
+      "subdomain": "ransomware-defense",
+      "tags": [
+        "ransomware",
+        "detection",
+        "canary-files",
+        "honeytokens",
+        "deception",
+        "file-integrity"
+      ],
+      "version": "1.0.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/deploying-decoy-files-for-ransomware-detection"
+    },
+    {
       "name": "deploying-edr-agent-with-crowdstrike",
       "description": ">",
       "domain": "cybersecurity",
@@ -3321,7 +3375,7 @@
     },
     {
       "name": "deploying-software-defined-perimeter",
-      "description": "Deploying Software Defined Perimeter",
+      "description": "Deploy a Software-Defined Perimeter using the CSA v2.0 specification with Single Packet Authorization, mutual TLS, and SDP controller/gateway configuration to enforce zero trust network access.",
       "domain": "cybersecurity",
       "subdomain": "security-operations",
       "tags": [
@@ -3696,7 +3750,7 @@
       "version": "1.0",
       "author": "mukul975",
       "license": "Apache-2.0",
-      "path": "skills/detecting-cloud-cryptomining-activity"
+      "path": "skills/detecting-cloud-cryptomining-activity.bak"
     },
     {
       "name": "detecting-cloud-threats-with-guardduty",
@@ -3817,7 +3871,7 @@
       "version": "1.0",
       "author": "mukul975",
       "license": "Apache-2.0",
-      "path": "skills/detecting-credential-dumping-with-edr"
+      "path": "skills/detecting-credential-dumping-with-edr.bak"
     },
     {
       "name": "detecting-cryptomining-in-cloud",
@@ -4022,22 +4076,6 @@
       "path": "skills/detecting-fileless-malware-techniques"
     },
     {
-      "name": "detecting-golden-ticket-attacks",
-      "description": ">-",
-      "domain": "cybersecurity",
-      "subdomain": "security-operations",
-      "tags": [
-        "detecting",
-        "golden",
-        "ticket",
-        "attacks"
-      ],
-      "version": "1.0",
-      "author": "mukul975",
-      "license": "Apache-2.0",
-      "path": "skills/detecting-golden-ticket-attacks"
-    },
-    {
       "name": "detecting-golden-ticket-attacks-in-kerberos-logs",
       "description": "Detect Golden Ticket attacks in Active Directory by analyzing Kerberos TGT anomalies including mismatched encryption types, impossible ticket lifetimes, non-existent accounts, and forged PAC signatures in domain controller event logs.",
       "domain": "cybersecurity",
@@ -4054,6 +4092,22 @@
       "author": "mukul975",
       "license": "Apache-2.0",
       "path": "skills/detecting-golden-ticket-attacks-in-kerberos-logs"
+    },
+    {
+      "name": "detecting-golden-ticket-attacks",
+      "description": ">-",
+      "domain": "cybersecurity",
+      "subdomain": "security-operations",
+      "tags": [
+        "detecting",
+        "golden",
+        "ticket",
+        "attacks"
+      ],
+      "version": "1.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/detecting-golden-ticket-attacks.bak"
     },
     {
       "name": "detecting-golden-ticket-forgery",
@@ -4175,6 +4229,24 @@
       "path": "skills/detecting-lateral-movement-with-splunk"
     },
     {
+      "name": "detecting-lateral-movement-with-zeek",
+      "description": ">",
+      "domain": "cybersecurity",
+      "subdomain": "network-security",
+      "tags": [
+        "zeek",
+        "lateral-movement",
+        "smb",
+        "dce-rpc",
+        "pass-the-hash",
+        "network-forensics"
+      ],
+      "version": "1.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/detecting-lateral-movement-with-zeek"
+    },
+    {
       "name": "detecting-living-off-the-land-attacks",
       "description": ">",
       "domain": "cybersecurity",
@@ -4189,6 +4261,22 @@
       "author": "mukul975",
       "license": "Apache-2.0",
       "path": "skills/detecting-living-off-the-land-attacks"
+    },
+    {
+      "name": "detecting-living-off-the-land-attacks",
+      "description": ">",
+      "domain": "cybersecurity",
+      "subdomain": "threat-detection",
+      "tags": [
+        "lolbins",
+        "lotl",
+        "fileless-attacks",
+        "process-monitoring"
+      ],
+      "version": "1.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/detecting-living-off-the-land-attacks.bak"
     },
     {
       "name": "detecting-living-off-the-land-with-lolbas",
@@ -4511,6 +4599,24 @@
       "author": "mukul975",
       "license": "Apache-2.0",
       "path": "skills/detecting-qr-code-phishing-with-email-security"
+    },
+    {
+      "name": "detecting-ransomware-encryption-behavior",
+      "description": ">",
+      "domain": "cybersecurity",
+      "subdomain": "ransomware-defense",
+      "tags": [
+        "ransomware",
+        "detection",
+        "entropy",
+        "behavioral-analysis",
+        "file-monitoring",
+        "heuristics"
+      ],
+      "version": "1.0.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/detecting-ransomware-encryption-behavior"
     },
     {
       "name": "detecting-ransomware-precursors-in-network",
@@ -4897,7 +5003,7 @@
       "version": "1.0.0",
       "author": "mukul975",
       "license": "Apache-2.0",
-      "path": "skills/executing-diamond-model-analysis"
+      "path": "skills/executing-diamond-model-analysis.bak"
     },
     {
       "name": "executing-phishing-simulation-campaign",
@@ -6363,7 +6469,7 @@
       "version": "1.0",
       "author": "mukul975",
       "license": "Apache-2.0",
-      "path": "skills/hunting-for-webshells-in-web-servers"
+      "path": "skills/hunting-for-webshells-in-web-servers.bak"
     },
     {
       "name": "hunting-living-off-the-land-binaries",
@@ -6379,7 +6485,7 @@
       "version": "1.0",
       "author": "mukul975",
       "license": "Apache-2.0",
-      "path": "skills/hunting-living-off-the-land-binaries"
+      "path": "skills/hunting-living-off-the-land-binaries.bak"
     },
     {
       "name": "implementing-aes-encryption-for-data-at-rest",
@@ -6435,6 +6541,24 @@
       "author": "mukul975",
       "license": "Apache-2.0",
       "path": "skills/implementing-anti-phishing-training-program"
+    },
+    {
+      "name": "implementing-anti-ransomware-group-policy",
+      "description": ">",
+      "domain": "cybersecurity",
+      "subdomain": "ransomware-defense",
+      "tags": [
+        "ransomware",
+        "group-policy",
+        "windows",
+        "AppLocker",
+        "hardening",
+        "prevention"
+      ],
+      "version": "1.0.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/implementing-anti-ransomware-group-policy"
     },
     {
       "name": "implementing-api-abuse-detection-with-rate-limiting",
@@ -7156,7 +7280,7 @@
     },
     {
       "name": "implementing-diamond-model-analysis",
-      "description": "The Diamond Model of Intrusion Analysis provides a structured framework for analyzing cyber intrusions by examining four core features: Adversary, Capability, Infrastructure, and Victim. This skill co",
+      "description": ">-",
       "domain": "cybersecurity",
       "subdomain": "threat-intelligence",
       "tags": [
@@ -7281,7 +7405,7 @@
       "version": "1.0",
       "author": "mukul975",
       "license": "Apache-2.0",
-      "path": "skills/implementing-email-security-with-dmarc-dkim-spf"
+      "path": "skills/implementing-email-security-with-dmarc-dkim-spf.bak"
     },
     {
       "name": "implementing-end-to-end-encryption-for-messaging",
@@ -7653,7 +7777,7 @@
     },
     {
       "name": "implementing-identity-verification-for-zero-trust",
-      "description": "Implementing Identity Verification For Zero Trust",
+      "description": "Implement continuous identity verification for zero trust using phishing-resistant MFA (FIDO2/WebAuthn), risk-based conditional access, and identity governance aligned with the CISA Zero Trust Maturity Model.",
       "domain": "cybersecurity",
       "subdomain": "security-operations",
       "tags": [
@@ -8209,7 +8333,7 @@
       "version": "1.0",
       "author": "mukul975",
       "license": "Apache-2.0",
-      "path": "skills/implementing-osquery-for-endpoint-monitoring"
+      "path": "skills/implementing-osquery-for-endpoint-monitoring.bak"
     },
     {
       "name": "implementing-ot-incident-response-playbook",
@@ -8453,7 +8577,7 @@
       "version": "1.0",
       "author": "mukul975",
       "license": "Apache-2.0",
-      "path": "skills/implementing-privileged-identity-management-with-azure"
+      "path": "skills/implementing-privileged-identity-management-with-azure.bak"
     },
     {
       "name": "implementing-privileged-session-monitoring",
@@ -8530,6 +8654,24 @@
       "path": "skills/implementing-ransomware-backup-strategy"
     },
     {
+      "name": "implementing-ransomware-kill-switch-detection",
+      "description": ">",
+      "domain": "cybersecurity",
+      "subdomain": "ransomware-defense",
+      "tags": [
+        "ransomware",
+        "kill-switch",
+        "mutex",
+        "detection",
+        "WannaCry",
+        "malware-analysis"
+      ],
+      "version": "1.0.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/implementing-ransomware-kill-switch-detection"
+    },
+    {
       "name": "implementing-rapid7-insightvm-for-scanning",
       "description": "Deploy and configure Rapid7 InsightVM Security Console and Scan Engines for authenticated and unauthenticated vulnerability scanning across enterprise environments.",
       "domain": "cybersecurity",
@@ -8565,7 +8707,7 @@
       "version": "1.0",
       "author": "mukul975",
       "license": "Apache-2.0",
-      "path": "skills/implementing-rbac-for-kubernetes-cluster"
+      "path": "skills/implementing-rbac-for-kubernetes-cluster.bak"
     },
     {
       "name": "implementing-rbac-hardening-for-kubernetes",
@@ -9015,7 +9157,7 @@
       "version": "1.0",
       "author": "mukul975",
       "license": "Apache-2.0",
-      "path": "skills/implementing-threat-intelligence-platform"
+      "path": "skills/implementing-threat-intelligence-platform.bak"
     },
     {
       "name": "implementing-threat-modeling-with-mitre-attack",
@@ -10140,23 +10282,6 @@
       "path": "skills/performing-cloud-native-forensics-with-falco"
     },
     {
-      "name": "performing-cloud-penetration-testing",
-      "description": ">",
-      "domain": "cybersecurity",
-      "subdomain": "penetration-testing",
-      "tags": [
-        "cloud-pentest",
-        "AWS-security",
-        "Azure-security",
-        "IAM-exploitation",
-        "cloud-infrastructure"
-      ],
-      "version": "1.0.0",
-      "author": "mukul975",
-      "license": "Apache-2.0",
-      "path": "skills/performing-cloud-penetration-testing"
-    },
-    {
       "name": "performing-cloud-penetration-testing-with-pacu",
       "description": ">",
       "domain": "cybersecurity",
@@ -10173,6 +10298,23 @@
       "author": "mukul975",
       "license": "Apache-2.0",
       "path": "skills/performing-cloud-penetration-testing-with-pacu"
+    },
+    {
+      "name": "performing-cloud-penetration-testing",
+      "description": ">",
+      "domain": "cybersecurity",
+      "subdomain": "penetration-testing",
+      "tags": [
+        "cloud-pentest",
+        "AWS-security",
+        "Azure-security",
+        "IAM-exploitation",
+        "cloud-infrastructure"
+      ],
+      "version": "1.0.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/performing-cloud-penetration-testing.bak"
     },
     {
       "name": "performing-cloud-storage-forensic-acquisition",
@@ -11371,7 +11513,7 @@
     },
     {
       "name": "performing-nist-csf-maturity-assessment",
-      "description": "The NIST Cybersecurity Framework (CSF) 2.0, released in February 2024, provides a comprehensive taxonomy for managing cybersecurity risk through six core Functions: Govern, Identify, Protect, Detect,",
+      "description": ">-",
       "domain": "cybersecurity",
       "subdomain": "compliance-governance",
       "tags": [
@@ -11733,7 +11875,7 @@
       "version": "1.0",
       "author": "mukul975",
       "license": "Apache-2.0",
-      "path": "skills/performing-ransomware-incident-response"
+      "path": "skills/performing-ransomware-incident-response.bak"
     },
     {
       "name": "performing-ransomware-response",
@@ -13521,6 +13663,25 @@
       "path": "skills/testing-oauth2-implementation-flaws"
     },
     {
+      "name": "testing-ransomware-recovery-procedures",
+      "description": ">-",
+      "domain": "cybersecurity",
+      "subdomain": "incident-response",
+      "tags": [
+        "incident-response",
+        "ransomware",
+        "disaster-recovery",
+        "backup",
+        "rto",
+        "rpo",
+        "resilience"
+      ],
+      "version": "1.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/testing-ransomware-recovery-procedures"
+    },
+    {
       "name": "testing-websocket-api-security",
       "description": ">",
       "domain": "cybersecurity",
@@ -13631,6 +13792,24 @@
       "author": "mukul975",
       "license": "Apache-2.0",
       "path": "skills/triaging-vulnerabilities-with-ssvc-framework"
+    },
+    {
+      "name": "validating-backup-integrity-for-recovery",
+      "description": ">-",
+      "domain": "cybersecurity",
+      "subdomain": "incident-response",
+      "tags": [
+        "incident-response",
+        "backup",
+        "integrity",
+        "hash-verification",
+        "restore-testing",
+        "disaster-recovery"
+      ],
+      "version": "1.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/validating-backup-integrity-for-recovery"
     }
   ]
 }
